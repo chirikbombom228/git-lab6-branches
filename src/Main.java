@@ -18,4 +18,8 @@ class Main {
         }
         System.out.println();
     }
+
+    static String getAuthor() {
+        return "Воробьёва Олеся, УВП-311";
+    }
 }
