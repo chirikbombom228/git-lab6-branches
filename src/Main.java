@@ -10,4 +10,12 @@ class Main {
     static int sum(int a, int b) {
         return a + b;
     }
+
+    static void printEvenNumbers(int n) {
+        System.out.print("Четные до " + n + ": ");
+        for (int i = 0; i <= n; i += 2) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+    }
 }
