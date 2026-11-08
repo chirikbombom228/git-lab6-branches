@@ -6,4 +6,8 @@ class Main {
     static void printDevInfo() {
         System.out.println("\nВетка dev: добавлен метод printDevInfo()");
     }
+
+    static int sum(int a, int b) {
+        return a + b;
+    }
 }
